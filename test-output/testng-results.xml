@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27911" started-at="2022-02-23T16:53:57 IST" finished-at="2022-02-23T16:54:25 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27911" started-at="2022-02-23T16:53:57 IST" finished-at="2022-02-23T16:54:25 IST">
+      <class name="com.selenium.testing.assesment.tests.SearchFlightsTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.selenium.testing.assesment.tests.SearchFlightsTest@23a5fd2]" name="launchBrowser" is-config="true" duration-ms="5040" started-at="2022-02-23T16:53:57 IST" finished-at="2022-02-23T16:54:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testFlights()[pri:0, instance:com.selenium.testing.assesment.tests.SearchFlightsTest@23a5fd2]" name="testFlights" duration-ms="22731" started-at="2022-02-23T16:54:02 IST" finished-at="2022-02-23T16:54:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlights -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.selenium.testing.assesment.tests.SearchFlightsTest@23a5fd2]" name="quitDriver" is-config="true" duration-ms="122" started-at="2022-02-23T16:54:25 IST" finished-at="2022-02-23T16:54:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.selenium.testing.assesment.tests.SearchFlightsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
