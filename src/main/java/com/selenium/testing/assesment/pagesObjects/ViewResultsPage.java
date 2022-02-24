@@ -7,26 +7,25 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ViewResultsPage {
 
-	@FindBy(xpath="//*[@id=\"origin_0\"]")
+	@FindBy(xpath = "//*[@name=\"origin_0\"]")
 	private WebElement fromField;
-	@FindBy(xpath="//*[@id=\"destination_0\"]")
+	@FindBy(xpath = "//*[@name=\"destination_0\"]")
 	private WebElement toField;
-	@FindBy(xpath="//*[@id=\"flight_depart_date_0\"]")
+	@FindBy(xpath = "//*[@id=\"flight_depart_date_0\"]")
 	private WebElement departureDateField;
-	
-	WebDriver driver = null;
-	
+
+	private WebDriver driver = null;
+
 	public ViewResultsPage(WebDriver driver) {
 		this.driver = driver;
-		PageFactory.initElements(driver,this);
+		PageFactory.initElements(driver, this);
 	}
-	
+
 	public String fromFieldValue() throws InterruptedException {
-		Thread.sleep(5000);
-		 return fromField.getText();
+		return fromField.getAttribute("value");
 	}
-	
-	
-	
-	
+
+	public String toFieldValue() throws InterruptedException {
+		return toField.getAttribute("value");
+	}
 }

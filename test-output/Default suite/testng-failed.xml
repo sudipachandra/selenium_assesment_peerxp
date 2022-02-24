@@ -7,7 +7,7 @@
         <methods>
           <include name="quitDriver"/>
           <include name="launchBrowser"/>
-          <include name="testFlights"/>
+          <include name="testFlights" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.selenium.testing.assesment.tests.SearchFlightsTest -->
     </classes>

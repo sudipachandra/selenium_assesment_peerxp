@@ -2,20 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27911" started-at="2022-02-23T16:53:57 IST" finished-at="2022-02-23T16:54:25 IST">
+  <suite name="Default suite" duration-ms="33220" started-at="2022-02-24T18:33:04 IST" finished-at="2022-02-24T18:33:38 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27911" started-at="2022-02-23T16:53:57 IST" finished-at="2022-02-23T16:54:25 IST">
+    <test name="Default test" duration-ms="33220" started-at="2022-02-24T18:33:04 IST" finished-at="2022-02-24T18:33:38 IST">
       <class name="com.selenium.testing.assesment.tests.SearchFlightsTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.selenium.testing.assesment.tests.SearchFlightsTest@23a5fd2]" name="launchBrowser" is-config="true" duration-ms="5040" started-at="2022-02-23T16:53:57 IST" finished-at="2022-02-23T16:54:02 IST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.selenium.testing.assesment.tests.SearchFlightsTest@ba8d91c]" name="launchBrowser" is-config="true" duration-ms="6191" started-at="2022-02-24T18:33:05 IST" finished-at="2022-02-24T18:33:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testFlights()[pri:0, instance:com.selenium.testing.assesment.tests.SearchFlightsTest@23a5fd2]" name="testFlights" duration-ms="22731" started-at="2022-02-23T16:54:02 IST" finished-at="2022-02-23T16:54:25 IST">
+        <test-method status="PASS" signature="testFlights(java.util.Hashtable)[pri:0, instance:com.selenium.testing.assesment.tests.SearchFlightsTest@ba8d91c]" name="testFlights" duration-ms="26662" started-at="2022-02-24T18:33:11 IST" data-provider="searchDetails" finished-at="2022-02-24T18:33:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{onward_journey_date=02/03/2022, class stops =, traveller_count=, return_journey_date=, journey_type=ONE WAY, source_city=Bangalore, destination_city=New Delhi}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFlights -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.selenium.testing.assesment.tests.SearchFlightsTest@23a5fd2]" name="quitDriver" is-config="true" duration-ms="122" started-at="2022-02-23T16:54:25 IST" finished-at="2022-02-23T16:54:25 IST">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.selenium.testing.assesment.tests.SearchFlightsTest@ba8d91c]" name="quitDriver" is-config="true" duration-ms="86" started-at="2022-02-24T18:33:38 IST" finished-at="2022-02-24T18:33:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
